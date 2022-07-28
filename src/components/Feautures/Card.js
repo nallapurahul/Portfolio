@@ -4,9 +4,11 @@ const Card = (props) => {
   return (
     <>
       <div className='box btn_shadow'>
-        <img src={props.image} style={{width:"40px"}} alt='' />
+        <center>
+        <img src={props.image} style={{width:"60px"}} alt='' />
         <h2>{props.title}</h2>
         <p>{props.desc}</p>
+        </center>
       </div>
     </>
   )
