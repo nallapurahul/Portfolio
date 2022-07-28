@@ -3,6 +3,7 @@ import "./Features.css"
 import Skills from "./SkillsApi"
 import Card from "./Card"
 import Expertise from "./ExpertiseApi"
+import Card1 from "./Card1"
 
 const Features = () => {
   return (
@@ -33,7 +34,7 @@ const Features = () => {
 
           <div className='content grid'>
             {Skills.map((val, index) => {
-              return <Card key={index} image={val.image} title={val.title} desc={val.desc} />
+              return <Card1 key={index} image={val.image} title={val.title} desc={val.desc} />
             })}
 
           </div>
